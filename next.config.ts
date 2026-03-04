@@ -10,9 +10,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  // eslint config removed because Next.js 16+ doesn't support it
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
   },
