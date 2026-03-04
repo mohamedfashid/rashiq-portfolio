@@ -1,0 +1,99 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "Abdulrashiq777/@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:Abdulrashiq777/@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 9488001317",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+919488001317"
+      },
+      {
+        "type": "behance",
+        "label": "www.behance.net/abdulrashiq",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "www.behance.net/abdulrashiq"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/abdul-rashiq/"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Bachelor Of Commerce (B.COM) - (2020 -2023)",
+        "description": "E.G.S Pillay Arts Science College, Nagapatinam Bharathidasan University."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Adobe Photoshop",
+        "icon": "/images/home/education-skill/photoshop-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Adoeb Illustrator",
+        "icon": "/images/home/education-skill/adobe-illustrator-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "After Effects",
+        "icon": "/images/home/education-skill/adobe-after-effects-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Indesign",
+        "icon": "/images/home/education-skill/indesign-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Canva",
+        "icon": "/images/home/education-skill/canva-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Figma",
+        "icon": "/images/home/education-skill/figma-icon.svg",
+        "rating": 5
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Dribble",
+        "href": "/"
+      },
+      {
+        "title": "Facebook",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "Abdulrashiq777/@gmail.com",
+        "link": "mailto:Abdulrashiq777/@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 9488001317",
+        "link": "tel:+919488001317"
+      }
+    ]
+  }
+}
