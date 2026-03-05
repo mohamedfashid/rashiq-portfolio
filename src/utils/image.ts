@@ -1,18 +1,17 @@
 /**
  * Get image path with basePath for production
- * In development, returns the path as-is. In production, adds the basePath prefix.
+ * In development and Vercel, returns the path as-is.
+ * On GitHub Pages, adds the basePath prefix.
  */
 export const getImgPath = (path: string): string => {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
-  if (!basePath) {
+  // If no basePath or path already has it, return as-is
+  if (!basePath || path.startsWith(basePath)) {
     return path;
   }
 
-  if (path.startsWith(basePath)) {
-    return path;
-  }
-
+  // Add basePath prefix
   return `${basePath}${path}`;
 };
 
@@ -21,21 +20,13 @@ export const getImgPath = (path: string): string => {
  * Used for fetching JSON data files
  */
 export const getDataPath = (path: string): string => {
-  if (typeof window !== "undefined") {
-    const basePath = window.location.pathname.split("/")[1] || "";
-    if (basePath && path.startsWith("/")) {
-      return `/${basePath}${path}`;
-    }
-  }
-
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-  if (!basePath) {
+  
+  // If no basePath or path already has it, return as-is
+  if (!basePath || path.startsWith(basePath)) {
     return path;
   }
 
-  if (path.startsWith(basePath)) {
-    return path;
-  }
-
+  // Add basePath prefix
   return `${basePath}${path}`;
 };

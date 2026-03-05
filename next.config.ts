@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
-const basePath = process.env.NODE_ENV === "production" ? "/Resume-Nextjs" : "";
+// Only use basePath when NOT on Vercel
+// This allows the site to work at root on Vercel, but with /Resume-Nextjs on GitHub Pages
+const isVercel = process.env.VERCEL === "1";
+const basePath = isVercel ? "" : "/Resume-Nextjs";
 
 const nextConfig: NextConfig = {
   output: "export",
@@ -10,7 +13,6 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  // eslint config removed because Next.js 16+ doesn't support it
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
   },
