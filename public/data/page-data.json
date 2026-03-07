@@ -3,9 +3,9 @@
     "contactItems": [
       {
         "type": "email",
-        "label": "Abdulrashiq777/@gmail.com",
+        "label": "Abdulrashiq777@gmail.com",
         "icon": "/images/icon/mail-icon.svg",
-        "link": "mailto:Abdulrashiq777/@gmail.com"
+        "link": "mailto:Abdulrashiq777@gmail.com"
       },
       {
         "type": "phone",
@@ -86,8 +86,8 @@
     "contactInfo": [
       {
         "type": "email",
-        "label": "Abdulrashiq777/@gmail.com",
-        "link": "mailto:Abdulrashiq777/@gmail.com"
+        "label": "Abdulrashiq777@gmail.com",
+        "link": "mailto:Abdulrashiq777@gmail.com"
       },
       {
         "type": "phone",
